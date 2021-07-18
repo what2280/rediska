@@ -11,6 +11,8 @@ apt upgrade
 
 apt install zip
 
+apt install unzip
+
 apt install git
 
 git clone https://github.com/what2280/rediska
