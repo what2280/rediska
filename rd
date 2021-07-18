@@ -10,10 +10,10 @@ from time import sleep
 from colorama import Fore, Back, Style
 from pathlib import Path
 home = str(Path.home())
-playsound(home+"/rediskafiles /rediskasound.mp3")
+playsound(home+"/rediska/rediskafiles /rediskasound.mp3")
 print(Style.BRIGHT + Back.BLUE+ Fore.YELLOW  + "REDISKA  ver 1.0 + "+ Back.RESET)
 for e in tqdm([1,2,3, 4]):
-    playsound(home+"/rediskafiles /rediskasound3.mp3")
+    playsound(home+"/rediska/rediskafiles /rediskasound3.mp3")
 print(Back.RED + Fore.YELLOW +"""########################################
 #######################+::::############
 ##########################-:::##########
@@ -56,16 +56,16 @@ system_info=input(Style.BRIGHT + Fore.GREEN+Back.RESET +  """чтобы полу
 """)
 if system_info==("1"):
     print(sys.platform)
-    playsound(home+"/rediskafiles /rediskasound2.mp3")
+    playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info==("2"):
         print(sys.version)
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info==("3"):
     print(sys.hash_info)
-    playsound(home+"/rediskafiles /rediskasound2.mp3")
+    playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info ==("4"):
     print(sys.modules)
-    playsound(home+"/rediskafiles /rediskasound2.mp3")
+    playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info== ("5"):
     sys.exit
 elif system_info== ("6"):
@@ -79,7 +79,7 @@ elif system_info == ("9"):
     for e in tqdm([1,2,3,4,5,6,7,8,9, 10]):
         sleep(0.09)
     print(Fore.YELLOW + "стиль был сменён")
-    playsound(home+"/rediskafiles /rediskasound2.mp3")
+    playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info ==("10"):
     for e in tqdm([1,2,3,4,5,6,7,8,9,10]):
         sleep(0.09)
@@ -90,17 +90,17 @@ elif system_info == ("21"):
     eula = input()
     if eula == ("д"):
         os.system("clear")
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
     elif eula == ("н"):
         sys.ext(0)
     elif eula == ("Д"):
         os.system("clear")
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
     elif system_info == ("Н"):
         sys.exit(0)
     elif eula == (""):
         os.system("clear")
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info == ("11"): 
     for e in tqdm([1,2,3,4,5,6,7,8,9, 10]):
         sleep(0.09)
@@ -113,7 +113,7 @@ elif system_info == ("12"):
         
         print(Style.DIM + "стиль был сменён")
     
-    playsound(home+"/rediskafiles /rediskasound2.mp3")
+    playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info == ("13"):
     for e in tqdm([1,2,3,4,5,6,7,8,9, 10]):
         sleep (0.09)
@@ -121,14 +121,14 @@ elif system_info == ("13"):
         
         print(Style.NORMAL + "стиль был сменён")
         
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info == ("14"):
     
     for e in tqdm([1,2,3,4,5,6,7,8,9, 10]):
         sleep(0.09)
         print(Style.BRIGHT + "стиль был сменён")
         
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info== ("19"):
     print("введите команду линукс : ")
     os.system(input())
@@ -138,21 +138,21 @@ elif system_info == ("15"):
         for e in tqdm([1,2,3,4,5,6,7,8,9, 10]):
             sleep(0.09)
             
-            playsound(home+"/rediskafiles /rediskasound2.mp3")
+            playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info == ("16"):
      papka=input("адрес удалённой папки : ")
      os.rmdir(papka)
      for e in tqdm([1,2,3,4,5,6,7,8,9, 10]):
         sleep(0.09)
         
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info == ("20"):
     print("переключение на режим консоли")
     prefix=input("установите префикс :  ")
     for i in tqdm([1,2,3,4,5,6,7,8,9, 10]):
         sleep(0.09)
         
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
         while True:
             cmnd=os.system(input(prefix+" : "))
 elif system_info == ("17"):
@@ -164,7 +164,7 @@ elif system_info == ("17"):
             sleep(0.09)
         shutil.rmtree(papka)
         print("удаление прошло успешно")	
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
     elif eula == ("н"):
         sys.ext(0)
     elif eula == ("Д"):
@@ -172,7 +172,7 @@ elif system_info == ("17"):
             sleep(0.09)
         shutil.rmtree(papka)
         print("удаление прошло успешно")	
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
     elif eula == ("Н"):
         sys.exit(0)
     elif eula == (""):
@@ -180,7 +180,7 @@ elif system_info == ("17"):
             sleep(0.09)
         shutil.rmtree(papka)
         print("удаление прошло успешно")	
-        playsound(home+"/rediskafiles /rediskasound2.mp3")
+        playsound(home+"/rediska/rediskafiles /rediskasound2.mp3")
 elif system_info == ("22"):
     print("вы уверены? д/н")
     eula = input()
@@ -221,7 +221,7 @@ elif system_info == ("18"):
                 cur_dir = parent_dir
 else:
     print("err no such func")
-    playsound(home + "/rediskafiles /rediskawinsound5.mp3")
+    playsound(home + "/rediska/rediskafiles /rediskawinsound5.mp3")
     sys.exit(0)
  
   
