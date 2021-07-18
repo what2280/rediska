@@ -1,21 +1,22 @@
 # rediska
 rediska only
+работает только на ЛИНУКС!
 скачай и распакуй zip архив в /home/имя пользователя,
 далее напиши в консоль python3 installer.py .
 
 или:
 
-apt update 
+apt update
 
 apt upgrade
 
 apt install zip
 
-cd
-
 apt install git
 
 git clone https://github.com/what2280/rediska
+
+cd rediska
 
 unzip rediska.zip
 
