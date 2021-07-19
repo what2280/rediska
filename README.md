@@ -22,6 +22,3 @@ cd rediska
 unzip rediska.zip
 
 python3 installer.py
-
-
-это только бета версия мой первый питон проект
